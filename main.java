@@ -12,7 +12,7 @@ public class main {
 		cliente1.getCuenta().depositar(1000);
 		cajero1.extraerDinero(200, cliente1);
 		System.out.println(cliente1.getCuenta().getSaldo());
-		
+		banco1.getTransaccion();
 	}
 
 }

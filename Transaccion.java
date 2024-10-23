@@ -31,5 +31,9 @@ public class Transaccion {
 		this.monto = monto;
 		this.nroCliente = nroCliente;
 	}
+	@Override
+	public String toString() {
+		return "Transaccion [fecha=" + fecha + ", monto=" + monto + ", nroCliente=" + nroCliente + "]";
+	}
 	
 }
